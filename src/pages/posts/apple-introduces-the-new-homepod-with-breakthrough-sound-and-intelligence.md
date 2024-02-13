@@ -1,8 +1,8 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
-title: 'Apple 推出新款 HomePod，带来突破性音质与智能体验'
+title: 'Apple  HomePod，'
 pubDate: 2035-03-25
-description: '呈现出类拔萃的音质、增强的 Siri 功能以及安全放心的智能家居体验'
+description: 'primer post que aparece'
 author: 'Apple Newsroom'
 cover:
     url: 'https://www.apple.com.cn/newsroom/images/product/homepod/standard/Apple-HomePod-hero-230118_big.jpg.large_2x.jpg'

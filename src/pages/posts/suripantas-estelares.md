@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
-title: 'hola suripantas este es el primer blog'
-pubDate: 2035-09-01
+title: 'suripantas estelares'
+pubDate: 2036-09-01
 description: 'espero que anden bien'
 author: 'Bob SLug'
 cover:

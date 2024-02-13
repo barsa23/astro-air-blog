@@ -7,15 +7,16 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
 ---
 
 <BaseLayout>
-  <section class="everydayfeed">
+  <section class="everydayfeed" style="background-color: rgb(255, 253, 124);">
     <div class="section-content">
-      <h2 class="section-head">最新文章</h2>
+      <h2 class="section-head">Section HEad</h2>
       <ul role="list" class="section-tiles">
+
         {
           // tile-hero
           allPosts.slice(0, 1).map((post) => {
             return (
-              <Tile title={post.frontmatter.title} href={post.url} date={post.frontmatter.pubDate} tags={post.frontmatter.tags} cover={post.frontmatter.cover.url} level="1" />
+              <Tile title={post.frontmatter.title} author={post.frontmatter.author} href={post.url} date={post.frontmatter.pubDate} tags={post.frontmatter.tags}  cover={post.frontmatter.cover.url} level="1" />
             );
           })
         }
@@ -41,9 +42,9 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
     </div>
   </section>
 
-  <section class="more-from-newsroom">
+  <section class="more-from-newsroom" style="background-color: blueviolet;">
     <div class="section-content">
-      <h2 class="section-head">更多文章</h2>
+      <h2 class="section-head">Section content</h2>
    
 
       <ul role="list" class="section-tiles">
@@ -58,7 +59,7 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
         }
       </ul>
       <div class="view-archive-wrapper">
-        <a href="/archive" class="cta-primary-light" data-analytics-region="router" data-analytics-title="view archive">阅读历史文章</a>
+        <a href="/archive" class="cta-primary-light" data-analytics-region="router" data-analytics-title="view archive">Archive</a>
       </div>
     </div>
   </section>
